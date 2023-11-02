@@ -4,7 +4,7 @@ import CompanyIcon from './GearIcon.png';
 import ProfilePicture from './profilePicture.gif';
 import './NavbarStyle.css';
 
-export function Navbar({ NavbarRowDetails, name, email, changePage}) {
+export function Navbar({ NavbarRowDetails, name, email }) {
 
   return (
     <div className="Navbar">
@@ -18,7 +18,7 @@ export function Navbar({ NavbarRowDetails, name, email, changePage}) {
         <p className="Email">{ email }</p>
       </div>
         { NavbarRowDetails.map(([title, icon]) => (
-            <NavbarRow key={title} navbarRowTitle={title} navbarRowIcon={icon} changePage={changePage}/>
+            <NavbarRow key={title} navbarRowTitle={title} navbarRowIcon={icon} />
         )) }
     </div>
   );

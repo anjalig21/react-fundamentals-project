@@ -8,6 +8,7 @@ import { Backups } from "./components/Backups/Backups.jsx"
 import { Collabrators } from "./components/Collabrators/Collabrators.jsx"
 import { SupportTools } from "./components/SupportTools/SupportTools.jsx"
 import { OpenNewTicket } from "./components/OpenNewTicket/OpenNewTicket.jsx"
+import { ChangePageContext } from './contexts/ChangePageContext'
 import "./App.css"
 
 const NavbarRowDetails = [
@@ -30,7 +31,9 @@ export function App(props) {
 
   return (
     <div className='App'>
-      <Navbar NavbarRowDetails={NavbarRowDetails} name={name} email={email} changePage={changePage}/>
+      <ChangePageContext.Provider value={changePage}>
+        <Navbar NavbarRowDetails={NavbarRowDetails} name={name} email={email}/>
+      </ChangePageContext.Provider>
       <div className="tabs">
         {page === "Dashboard" && <Dashboard/>}
         {page === "Site Details" && <SiteDetails/>}
