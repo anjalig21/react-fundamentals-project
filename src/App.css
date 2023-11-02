@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs > div {
+  width: 85vw;
+  height: 100vh;
+}

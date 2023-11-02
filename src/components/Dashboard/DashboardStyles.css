@@ -1,0 +1,29 @@
+.Dashboard {
+
+}
+
+.SearchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchBox {
+    margin: 2.5% 2.5% 2.5% 1%;
+    height: 3vh; /* Set height */
+    border: 1px solid #ccc; /* Grey border */
+    border-radius: 5px; /* Rounded borders */
+    font-size: 16px; /* Text size */
+    color: #333; /* Text color */
+    padding: 10px; /* Padding inside the input */
+    background-color: white; /* White background */
+    box-sizing: border-box; /* Include padding and border in the input's total width and height */
+}
+
+.AllPosts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    flex-wrap: wrap;
+}

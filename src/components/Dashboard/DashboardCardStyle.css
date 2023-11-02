@@ -1,0 +1,26 @@
+.DashboardCard {
+    background-color: aquamarine;
+    min-height: 250px;
+    width: 15vw;
+    height: 37vh;
+}
+
+.DashboardCardImage {
+    height: auto;
+    width: 100%;
+}
+
+.DashboardCardTitle {
+    font-size: clamp(10px, 2vw, 20px);
+    margin: 3%;
+}
+
+.DashboardCardPrice {
+    font-size: clamp(10px, 2vw, 15px);
+    margin: 3%;
+}
+
+.DashboardCardAddress {
+    font-size: clamp(10px, 2vw, 15px);
+    margin: 3%;
+}

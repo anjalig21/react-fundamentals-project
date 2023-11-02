@@ -1,0 +1,20 @@
+.NavbarRow {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    transition: background-color 0.5s ease;
+    padding: 8%;
+  }
+  
+  .NavbarRow:hover {
+    background-color: #7b90db;
+  }
+  
+  .NavbarRowIcon {
+    height: 20px;
+  }
+  
+  .NavbarRowTitle {
+    color: #ffffff;
+  }

@@ -1,0 +1,42 @@
+.Navbar {
+    width: 15vw;
+    background-color: #5B7CFD;
+    height: 100vh;
+}
+
+.TitleAndProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.CompanyIcon {
+    height: 20px;
+}
+
+.CompanyTitle {
+    color: white;
+}
+
+.ProfileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfilePicture {
+    max-height: 15vh;
+}
+
+.Name {
+    color: white;
+    margin-bottom: 0%;
+    padding: 5%;
+}
+
+.Email {
+    margin-top: 0%;
+    color: white;
+}
